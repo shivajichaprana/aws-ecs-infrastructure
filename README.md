@@ -26,7 +26,7 @@ Terraform configuration for deploying ECS Fargate infrastructure with GitHub Act
 
 - AWS CLI configured
 - Terraform >= 1.0
-- AWS Account: 975050061334
+- AWS Account: `<your-aws-account-id>`
 - Region: us-east-1
 
 ## Usage
@@ -56,7 +56,7 @@ terraform destroy
 Key variables in `variables.tf`:
 - `project_name`: nginx-fargate-demo
 - `aws_region`: us-east-1
-- `github_org`: shivajichaprana
+- `github_org`: `<your-github-org>`
 - `github_repo`: nginx-platform
 - `ecs_desired_count`: 1
 - `ecs_min_capacity`: 1
